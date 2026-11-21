@@ -1,0 +1,6 @@
+﻿Lần chạy	Ngày giờ bắt đầu (VN)	Người thực hiện	Nội dung	Cấu hình	Tập đánh giá	Precision	Recall	F1-score	ROC-AUC	Thời gian (giây)	Nhận xét	Hướng thử tiếp
+1	2026-11-21 16:39:43	Codex theo yêu cầu của bạn	KNN (baseline)	K=5; uniform; Euclidean	Test	0.5661	0.3093	0.4000	0.7405	3.22	Mốc ban đầu; Recall thấp	Khảo sát bằng CV trên train
+1	2026-11-21 16:39:47	Codex theo yêu cầu của bạn	KNN (SMOTE)	K=5; uniform; Euclidean; SMOTE	Test	0.2449	0.6315	0.3529	0.7314	5.08	Recall tăng nhưng Precision và F1 giảm	Chưa ưu tiên SMOTE nếu tối ưu F1
+1	2026-11-21 16:39:52	Codex theo yêu cầu của bạn	KNN (threshold)	K=5; ngưỡng=0.4; chọn bằng OOF 3-fold	Test	0.4200	0.4806	0.4482	0.7405	7.95	F1 test tăng 0.0482 so với baseline	Kiểm tra độ ổn định ngưỡng trên train
+1	2026-11-21 16:40:00	Codex theo yêu cầu của bạn	Tìm siêu tham số	6 tổ hợp: K=5,11,21; uniform/distance; p=2; tốt nhất K=5 uniform	CV 3-fold trên train	—	0.2905	0.3762	0.7221	50.31	Chọn theo F1 CV; chưa tìm thấy cấu hình tốt hơn baseline	Thử K=3,5,7,9 và p=1,2
+1	2026-11-21 16:40:50	Codex theo yêu cầu của bạn	KNN (tuned)	K=5; uniform; p=2	Test	0.5661	0.3093	0.4000	0.7405	3.99	Cấu hình được chọn trùng baseline; chưa tăng điểm	Thử thêm K nhỏ và p=1 bằng CV

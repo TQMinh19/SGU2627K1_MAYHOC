@@ -1,0 +1,7 @@
+Thoi_diem,So_fold,rank_test_f1,mean_test_f1,std_test_f1,mean_test_recall,mean_test_roc_auc,params,Ghi_chu
+2026-11-21T16:40:50.580057,3,1,0.37621179496938967,0.009628995609297801,0.2904877391538669,0.7221488923927529,"{'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'uniform'}","Khảo sát K=5,11,21; uniform/distance; Euclidean"
+2026-11-21T16:40:50.580057,3,2,0.3696173105882916,0.012926657268945131,0.2988412826731339,0.7193806452340926,"{'knn__n_neighbors': 5, 'knn__p': 2, 'knn__weights': 'distance'}","Khảo sát K=5,11,21; uniform/distance; Euclidean"
+2026-11-21T16:40:50.580057,3,4,0.3593688068399343,0.011221823179139027,0.26057666397197526,0.7466705293435526,"{'knn__n_neighbors': 11, 'knn__p': 2, 'knn__weights': 'uniform'}","Khảo sát K=5,11,21; uniform/distance; Euclidean"
+2026-11-21T16:40:50.580057,3,3,0.36466906684942657,0.013787212448559974,0.2745890595526812,0.7423656746921896,"{'knn__n_neighbors': 11, 'knn__p': 2, 'knn__weights': 'distance'}","Khảo sát K=5,11,21; uniform/distance; Euclidean"
+2026-11-21T16:40:50.580057,3,6,0.35261075966958316,0.013012622588255925,0.24683373753705198,0.7618036571413209,"{'knn__n_neighbors': 21, 'knn__p': 2, 'knn__weights': 'uniform'}","Khảo sát K=5,11,21; uniform/distance; Euclidean"
+2026-11-21T16:40:50.580057,3,5,0.3563674076993865,0.009750220128139489,0.25922931824306117,0.7556900153951155,"{'knn__n_neighbors': 21, 'knn__p': 2, 'knn__weights': 'distance'}","Khảo sát K=5,11,21; uniform/distance; Euclidean"
